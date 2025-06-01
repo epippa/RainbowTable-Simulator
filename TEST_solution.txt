@@ -1,0 +1,27 @@
+TEST:
+Password Length: 4
+HashAlgorithm: MD5
+Reduction Funcion: last 4 characters
+charset: "abcdef0123456789"
+Suggested Table size: 2000 chains of length 50
+
+---------------------------------------------
+
+Test1 (Rainbow Tables without Salt)
+
+> Digests: eda95e1f923c19c1660d75a8abc76f5f 
+> Solution: 7ba5
+
+> Digest: 550ca021b146568558b503248a69a6c7
+> Solution: 464c
+
+-------------------------------------------
+Test2 (Rainbow Tables with Salt)
+
+Salt: "de8f329ac8bc62d90ae6bff34ae12bcd"
+
+> Digests: 0d0a0795e4df0c716b467d180ea5d95f 
+> Solution: 464c
+
+> Digest: 550ca021b146568558b503248a69a6c7
+> Solution: "Sorry, I couldn't decrypt this digest :-("
