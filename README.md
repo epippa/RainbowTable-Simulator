@@ -56,3 +56,13 @@ Chain no: 1
 ...
 Decryption result for hash1: 7ba5
 Decryption result for hash2: 464c
+
+---
+
+---
+
+## 👤 Autore
+
+**Emanuele Pippa**  
+Academic simulation of Rainbow Tables to understand the limitations of unsalted MD5 hashes
+GitHub: [epippa](https://github.com/epippa)
